@@ -1,0 +1,38 @@
+{
+  "name": "mojo-theme",
+  "displayName": "mojo",
+  "description": "Dark theme with muted shades of blue and purple.",
+  "version": "0.0.2",
+  "author": "Albert Perlman",
+  "publisher": "aperlman",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "mojo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mojo.json"
+      }
+    ]
+  },
+  "keywords": [
+    "C/C++",
+    "C",
+    "C++",
+    "yaml",
+    "bash",
+    "bitbake",
+    "muted",
+    "dark",
+    "theme"
+    ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albert-perlman/mojo-vscode-theme.git"
+  }
+}

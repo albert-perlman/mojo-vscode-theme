@@ -1,0 +1,282 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Dark-",
+  "type": "dark",
+  "include": "./default/dark_plus.json",
+  "colors": {
+    // editor
+    "editor.lineHighlightBackground": "#111",
+    "editor.selectionBackground": "#007ACC40",
+    "editor.selectionHighlightBackground": "#ADD6FF10",
+    "editor.selectionHighlightBorder": "#ADD6FF10",
+    "editorLineNumber.foreground": "#444",
+    "editorLineNumber.activeForeground": "#41a6d9",
+    "editorBracketMatch.border": "#1E1E1E",
+    "editorGroup.border": "#1E1E1E",
+    "editorPane.background": "#1E1E1E",
+    // tabs
+    "tab.activeBorderTop": "#007ACC",
+    "tab.inactiveBackground": "#252526",
+    // scrollbar
+    "scrollbarSlider.background": "#151515",
+    "scrollbarSlider.hoverBackground": "#292929",
+    "scrollbarSlider.activeBackground": "#292929",
+    // activity bar
+    "activityBar.foreground": "#A6A6A6",
+    "activityBar.background": "#1E1E1E",
+    // side bar
+    "sideBar.border": "#1E1E1E",
+    "sideBar.foreground": "#A6A6A6",
+    "sideBar.background": "#1E1E1E",
+    "sideBarSectionHeader.border": "#1E1E1E",
+    // lists
+    "list.activeSelectionForeground": "#007ACC",
+    "list.activeSelectionBackground": "#1E1E1E",
+    "list.inactiveSelectionBackground": "#292929",
+    "list.hoverBackground": "#292929",
+    // status bar
+    "statusBar.foreground": "#A6A6A6",
+    "statusBar.background": "#1E1E1E",
+    "statusBar.noFolderBackground": "#303030",
+    // panel
+    "panelTitle.activeBorder": "#007ACC",
+  },
+  "tokenColors": [
+    {
+      "name": "comments base",
+      "settings": {
+          "foreground": "#666",
+          "fontStyle": "italic",
+      },
+      "scope": [
+          "comment"
+      ]
+    },
+    {
+      "name": "Function declarations",
+      "settings": {
+        // "foreground": "#cccba1" // yellow
+        "foreground": "#bea7eb" // purple
+      },
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "support.constant.handlebars",
+        "source.powershell variable.other.member",
+        "keyword.control.shell",
+        "entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
+      ]
+    },
+    {
+      "name": "Types declaration and references",
+      "settings": {
+          "foreground": "#65b8c2"
+      },
+      "scope": [
+          "meta.return-type",
+          "support.class",
+          "support.type",
+          "entity.name.type",
+          "entity.name.namespace",
+          "entity.other.attribute",
+          "entity.name.scope-resolution",
+          "entity.name.class",
+          "storage.type.numeric.go",
+          "storage.type.byte.go",
+          "storage.type.boolean.go",
+          "storage.type.string.go",
+          "storage.type.uintptr.go",
+          "storage.type.error.go",
+          "storage.type.rune.go",
+          "storage.type.cs",
+          "storage.type.generic.cs",
+          "storage.type.modifier.cs",
+          "storage.type.variable.cs",
+          "storage.type.annotation.java",
+          "storage.type.generic.java",
+          "storage.type.java",
+          "storage.type.object.array.java",
+          "storage.type.primitive.array.java",
+          "storage.type.primitive.java",
+          "storage.type.token.java",
+          "storage.type.groovy",
+          "storage.type.annotation.groovy",
+          "storage.type.parameters.groovy",
+          "storage.type.generic.groovy",
+          "storage.type.object.array.groovy",
+          "storage.type.primitive.array.groovy",
+          "storage.type.primitive.groovy",
+          // TS grammar specific
+          "meta.type.cast.expr",
+          "meta.type.new.expr",
+          "support.constant.math",
+          "support.constant.dom",
+          "support.constant.json",
+          "entity.other.inherited-class"
+      ]
+    },
+    {
+      "name": "Control flow / Special keywords",
+      "settings": {
+        "foreground": "#bea1c2"
+      },
+      "scope": [
+          "keyword.control",
+          "keyword.operator.new",
+          "keyword.operator.delete",
+          "keyword.other.using",
+          "keyword.other.operator",
+          "entity.name.operator"
+      ]
+    },
+    {
+      "name": "Variable and parameter name",
+      "settings": {
+        "foreground": "#9CDCFE"
+      },
+      "scope": [
+        "variable",
+        "meta.definition.variable.name",
+        "support.variable",
+        "entity.name.variable"
+      ]
+    },
+    {
+      "name": "Constants and enums",
+      "settings": {
+        "foreground": "#4FC1FF",
+      },
+      "scope": [
+        "variable.other.constant",
+        "variable.other.enummember"
+      ]
+    },
+    {
+      "name": "Strings",
+      "settings": {
+        "foreground": "#9aefea", // cyan
+        // "foreground": "#ceeff2", // white
+        // "foreground": "#c99d8b", // orange
+        // "foreground": "#d1c4a1", // yellow
+      },
+      "scope": [
+        "string.unquoted",
+        "string.quoted.double",
+        "string.quoted.single",
+        "string.interpolated.dollar.shell"
+      ]
+    },
+    {
+      "name": "Character escape",
+      "settings": {
+        "foreground": "#00ffff"
+      },
+      "scope": [
+        "constant.character.escape"
+      ]
+    },
+    //
+    // C++
+    //
+    {
+      "name": "cpp include",
+      "settings": {
+        "foreground": "#9aefea",
+      },
+      "scope": [
+        "string.quoted.double.include.cpp",
+        "string.quoted.other.lt-gt.include.cpp",
+      ]
+    },
+    //
+    // YAML
+    //
+    {
+      "name": "yml tag",
+      "settings": {
+        "foreground": "#00a8c9",
+      },
+      "scope": [
+        "source.yaml entity.name.tag"
+      ]
+    },
+    {
+      "name": "yml value",
+      "settings": {
+        "foreground": "#9CDCFE",
+      },
+      "scope": [
+        "source.yaml string.unquoted",
+        "source.yaml string.quoted.single",
+        "source.yaml string.quoted.double",
+      ]
+    },
+    {
+      "name": "yml boolean",
+      "settings": {
+        "foreground": "#00ffff",
+      },
+      "scope": [
+        "source.yaml constant.language.boolean"
+      ]
+    },
+    //
+    // BASH
+    //
+    {
+      "name": "bash",
+      "settings": {
+        "foreground": "#00a8c9",
+      },
+      "scope": [
+        "source.shell"
+      ]
+    },
+    {
+      "name": "bash string",
+      "settings": {
+        "foreground": "#9aefea",
+      },
+      "scope": [
+        "source.shell string.unquoted",
+        "source.shell string.quoted.single",
+        "source.shell string.quoted.double",
+        "string.interpolated.dollar.shell",
+      ]
+    },
+    //
+    // BITBAKE
+    //
+    {
+      "name": "bitbake",
+      "settings": {
+        "foreground": "#9aefea",
+      },
+      "scope": [
+        "source.bb",
+        "source.bb string.unquoted",
+        "source.bb string.quoted.single",
+        "source.bb string.quoted.double",
+        "string.interpolated.dollar.shell",
+        "source.bb support.function.builtin.shell",
+      ]
+    },
+    {
+      "name": "bitbake variable",
+      "settings": {
+        "foreground": "#00a8c9",
+      },
+      "scope": [
+        "source.bb variable.other.bb",
+        "source.bb variable.language.bb",
+        "source.bb variable.other.bracket.shell",
+      ]
+    },
+  ],
+  "semanticTokenColors": {
+    "newOperator":"#bea1c2",
+    "stringLiteral":"#ce9178",
+    "customLiteral": "#DCDCAA",
+    "numberLiteral": "#b5cea8",
+  }
+}
