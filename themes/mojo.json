@@ -14,6 +14,7 @@
     "editorBracketMatch.border": "#1E1E1E",
     "editorGroup.border": "#1E1E1E",
     "editorPane.background": "#1E1E1E",
+    "editorRuler.foreground": "#292929",
     // tabs
     "tab.activeBorderTop": "#007ACC",
     "tab.inactiveBackground": "#252526",
@@ -63,6 +64,7 @@
         "support.function",
         "support.constant.handlebars",
         "source.powershell variable.other.member",
+        "meta.function-call.python",
         "keyword.control.shell",
         "entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
       ]
@@ -122,8 +124,7 @@
       },
       "scope": [
           "keyword.control",
-          "keyword.operator.new",
-          "keyword.operator.delete",
+          "keyword.operator",
           "keyword.other.using",
           "keyword.other.operator",
           "entity.name.operator"
@@ -136,9 +137,13 @@
       },
       "scope": [
         "variable",
+        "variable.other",
+        "meta.attribute",
         "meta.definition.variable.name",
         "support.variable",
-        "entity.name.variable"
+        "entity.name.variable",
+        "source.python", // because python is made of dynamically typed variables
+        "meta.function-call.arguments.python",
       ]
     },
     {
@@ -167,11 +172,12 @@
       ]
     },
     {
-      "name": "Character escape",
+      "name": "Numeric constants and Character escape",
       "settings": {
         "foreground": "#00ffff"
       },
       "scope": [
+        "constant.numeric",
         "constant.character.escape"
       ]
     },
@@ -192,7 +198,7 @@
     // YAML
     //
     {
-      "name": "yml tag",
+      "name": "yaml tag",
       "settings": {
         "foreground": "#00a8c9",
       },
@@ -201,7 +207,7 @@
       ]
     },
     {
-      "name": "yml value",
+      "name": "yaml value",
       "settings": {
         "foreground": "#9CDCFE",
       },
@@ -212,7 +218,7 @@
       ]
     },
     {
-      "name": "yml boolean",
+      "name": "yaml boolean",
       "settings": {
         "foreground": "#00ffff",
       },
@@ -232,51 +238,23 @@
         "source.shell"
       ]
     },
-    {
-      "name": "bash string",
-      "settings": {
-        "foreground": "#9aefea",
-      },
-      "scope": [
-        "source.shell string.unquoted",
-        "source.shell string.quoted.single",
-        "source.shell string.quoted.double",
-        "string.interpolated.dollar.shell",
-      ]
-    },
     //
     // BITBAKE
     //
     {
       "name": "bitbake",
       "settings": {
-        "foreground": "#9aefea",
-      },
-      "scope": [
-        "source.bb",
-        "source.bb string.unquoted",
-        "source.bb string.quoted.single",
-        "source.bb string.quoted.double",
-        "string.interpolated.dollar.shell",
-        "source.bb support.function.builtin.shell",
-      ]
-    },
-    {
-      "name": "bitbake variable",
-      "settings": {
         "foreground": "#00a8c9",
       },
       "scope": [
-        "source.bb variable.other.bb",
-        "source.bb variable.language.bb",
-        "source.bb variable.other.bracket.shell",
+        "source.bb",
       ]
     },
   ],
   "semanticTokenColors": {
     "newOperator":"#bea1c2",
-    "stringLiteral":"#ce9178",
-    "customLiteral": "#DCDCAA",
-    "numberLiteral": "#b5cea8",
+    "stringLiteral":"#9aefea",
+    "customLiteral": "#00a8c9",
+    "numberLiteral": "#00ffff",
   }
 }
