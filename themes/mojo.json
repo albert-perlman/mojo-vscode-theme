@@ -19,9 +19,9 @@
     "tab.activeBorderTop": "#007ACC",
     "tab.inactiveBackground": "#252526",
     // scrollbar
-    "scrollbarSlider.background": "#151515",
-    "scrollbarSlider.hoverBackground": "#292929",
-    "scrollbarSlider.activeBackground": "#292929",
+    "scrollbarSlider.background": "#12121288",
+    "scrollbarSlider.hoverBackground": "#32323288",
+    "scrollbarSlider.activeBackground": "#32323288",
     // activity bar
     "activityBar.foreground": "#A6A6A6",
     "activityBar.background": "#1E1E1E",
