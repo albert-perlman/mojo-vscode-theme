@@ -204,6 +204,7 @@
         "foreground": "#569CD6",
       },
       "scope": [
+        "variable.language.special.self.python",
         "variable.parameter.function.language.special.self.python"
       ]
     },
