@@ -142,7 +142,7 @@
         "meta.definition.variable.name",
         "support.variable",
         "entity.name.variable",
-        "source.python", // because python is made of dynamically typed variables
+        "source.python",
         "meta.function-call.arguments.python",
       ]
     },
@@ -192,6 +192,18 @@
       "scope": [
         "string.quoted.double.include.cpp",
         "string.quoted.other.lt-gt.include.cpp",
+      ]
+    },
+    //
+    // PYTHON
+    //
+    {
+      "name": "python self",
+      "settings": {
+        "foreground": "#569CD6",
+      },
+      "scope": [
+        "variable.parameter.function.language.special.self.python"
       ]
     },
     //
