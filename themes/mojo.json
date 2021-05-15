@@ -120,7 +120,7 @@
     {
       "name": "Control flow / Special keywords",
       "settings": {
-        "foreground": "#bea1c2"
+        "foreground": "#C586C0"
       },
       "scope": [
           "keyword.control",
@@ -252,7 +252,7 @@
     },
   ],
   "semanticTokenColors": {
-    "newOperator":"#bea1c2",
+    "newOperator":"#C586C0",
     "stringLiteral":"#9aefea",
     "customLiteral": "#00a8c9",
     "numberLiteral": "#00ffff",
