@@ -138,6 +138,7 @@
       "scope": [
         "variable",
         "variable.other",
+        "variable.language",
         "meta.attribute",
         "meta.definition.variable.name",
         "support.variable",
