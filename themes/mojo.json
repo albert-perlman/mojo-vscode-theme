@@ -44,7 +44,7 @@
   },
   "tokenColors": [
     {
-      "name": "comments base",
+      "name": "comments",
       "settings": {
           "foreground": "#666",
           "fontStyle": "italic",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "name": "Function declarations",
+      "name": "functions",
       "settings": {
         // "foreground": "#cccba1" // yellow
         "foreground": "#bea7eb" // purple
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "name": "Types declaration and references",
+      "name": "types declaration and references",
       "settings": {
           "foreground": "#65b8c2"
       },
@@ -118,20 +118,17 @@
       ]
     },
     {
-      "name": "Control flow / Special keywords",
+      "name": "control flow / special keywords",
       "settings": {
         "foreground": "#C586C0"
       },
       "scope": [
           "keyword.control",
-          "keyword.operator",
           "keyword.other.using",
-          "keyword.other.operator",
-          "entity.name.operator"
       ]
     },
     {
-      "name": "Variable and parameter name",
+      "name": "variable / parameter",
       "settings": {
         "foreground": "#9CDCFE"
       },
@@ -148,17 +145,18 @@
       ]
     },
     {
-      "name": "Constants and enums",
+      "name": "constants / enums",
       "settings": {
         "foreground": "#4FC1FF",
       },
       "scope": [
+        "constant.numeric",
         "variable.other.constant",
         "variable.other.enummember"
       ]
     },
     {
-      "name": "Strings",
+      "name": "strings",
       "settings": {
         "foreground": "#9aefea", // cyan
         // "foreground": "#ceeff2", // white
@@ -173,13 +171,39 @@
       ]
     },
     {
-      "name": "Numeric constants and Character escape",
+      "name": "this",
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#569CD6",
       },
       "scope": [
-        "constant.numeric",
-        "constant.character.escape"
+        "variable.language.this",
+      ]
+    },
+    {
+      "name": "operators / punctuation / character escape",
+      "settings": {
+        "foreground": "#00eded"
+      },
+      "scope":[
+        "keyword.operator",
+        "constant.character.escape",
+        "punctuation.terminator",
+        "punctuation.separator",
+        "entity.name.operator",
+        "entity.name.function.operator",
+
+      ]
+    },
+    {
+      "name": "dot operator",
+      "settings": {
+        "foreground": "#00eded",
+        "fontStyle": "bold",
+      },
+      "scope": [
+        "punctuation.accessor",
+        "punctuation.separator.period.python",
+        "punctuation.separator.dot-access.cpp",
       ]
     },
     //
@@ -234,7 +258,7 @@
     {
       "name": "yaml boolean",
       "settings": {
-        "foreground": "#00ffff",
+        "foreground": "#00eded",
       },
       "scope": [
         "source.yaml constant.language.boolean"
@@ -269,6 +293,6 @@
     "newOperator":"#C586C0",
     "stringLiteral":"#9aefea",
     "customLiteral": "#00a8c9",
-    "numberLiteral": "#00ffff",
+    "numberLiteral": "#00eded",
   }
 }
