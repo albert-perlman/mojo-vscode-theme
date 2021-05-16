@@ -2,7 +2,7 @@
   "name": "mojo-theme",
   "displayName": "mojo",
   "description": "Dark theme with muted shades of blue and purple.",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": "Albert Perlman",
   "publisher": "aperlman",
   "engines": {
