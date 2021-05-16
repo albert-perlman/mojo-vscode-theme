@@ -5,7 +5,7 @@
   "include": "./default/dark_plus.json",
   "colors": {
     // editor
-    "editor.lineHighlightBackground": "#111",
+    "editor.lineHighlightBackground": "#1E1E1E",
     "editor.selectionBackground": "#007ACC40",
     "editor.selectionHighlightBackground": "#ADD6FF10",
     "editor.selectionHighlightBorder": "#ADD6FF10",
@@ -33,7 +33,7 @@
     // lists
     "list.activeSelectionForeground": "#007ACC",
     "list.activeSelectionBackground": "#1E1E1E",
-    "list.inactiveSelectionBackground": "#292929",
+    "list.inactiveSelectionBackground": "#1E1E1E",
     "list.hoverBackground": "#292929",
     // status bar
     "statusBar.foreground": "#A6A6A6",
