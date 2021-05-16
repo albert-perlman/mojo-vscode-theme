@@ -186,6 +186,7 @@
       },
       "scope":[
         "keyword.operator",
+        "keyword.operator.logical.python",
         "constant.character.escape",
         "punctuation.terminator",
         "punctuation.separator",

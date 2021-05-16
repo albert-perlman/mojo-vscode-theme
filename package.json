@@ -2,7 +2,7 @@
   "name": "mojo-theme",
   "displayName": "mojo",
   "description": "Dark theme with muted shades of blue and purple.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "Albert Perlman",
   "publisher": "aperlman",
   "engines": {
@@ -26,7 +26,7 @@
     "C++",
     "python",
     "yaml",
-    "bash",
+    "shell",
     "bitbake",
     "dark",
     "theme",
