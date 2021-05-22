@@ -142,6 +142,7 @@
         "entity.name.variable",
         "source.python",
         "meta.function-call.arguments.python",
+        "storage.source"
       ]
     },
     {
@@ -164,6 +165,7 @@
         // "foreground": "#d1c4a1", // yellow
       },
       "scope": [
+        "string.source",
         "string.unquoted",
         "string.quoted.double",
         "string.quoted.single",
@@ -288,6 +290,18 @@
       },
       "scope": [
         "source.bb",
+      ]
+    },
+    //
+    // CMAKE
+    //
+    {
+      "name": "cmake",
+      "settings": {
+        "foreground": "#9CDCFE",
+      },
+      "scope": [
+        "source.cmake",
       ]
     },
   ],
