@@ -20,6 +20,7 @@
     "tab.inactiveBackground": "#252526",
     // git
     "gitDecoration.modifiedResourceForeground" : "#9aefea",
+    "gitDecoration.stageModifiedResourceForeground": "#9aefea",
     // scrollbar
     "scrollbarSlider.background": "#12121288",
     "scrollbarSlider.hoverBackground": "#32323288",
