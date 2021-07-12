@@ -19,6 +19,7 @@
     "tab.activeBorderTop": "#007ACC",
     "tab.inactiveBackground": "#252526",
     // git
+    "gitDecoration.renamedResourceForeground": "#9aefea",
     "gitDecoration.modifiedResourceForeground" : "#9aefea",
     "gitDecoration.stageModifiedResourceForeground": "#9aefea",
     // scrollbar
@@ -59,7 +60,6 @@
     {
       "name": "functions",
       "settings": {
-        // "foreground": "#cccba1" // yellow
         "foreground": "#bea7eb" // purple
       },
       "scope": [
@@ -164,9 +164,6 @@
       "name": "strings",
       "settings": {
         "foreground": "#9aefea", // cyan
-        // "foreground": "#ceeff2", // white
-        // "foreground": "#c99d8b", // orange
-        // "foreground": "#d1c4a1", // yellow
       },
       "scope": [
         "string.source",
@@ -174,7 +171,8 @@
         "string.quoted.double",
         "string.quoted.single",
         "string.other.math.shell",
-        "string.interpolated.dollar.shell"
+        "string.interpolated.dollar.shell",
+        "string.interpolated.backtick.shell"
       ]
     },
     {
