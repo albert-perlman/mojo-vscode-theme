@@ -2,7 +2,7 @@
   "name": "mojo-theme",
   "displayName": "mojo",
   "description": "Dark theme with muted shades of blue and purple.",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "author": "Albert Perlman",
   "publisher": "aperlman",
   "engines": {
@@ -11,6 +11,11 @@
   "categories": [
     "Themes"
   ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
