@@ -15,6 +15,7 @@
     "editorGroup.border": "#1E1E1E",
     "editorPane.background": "#1E1E1E",
     "editorRuler.foreground": "#292929",
+    "editorError.foreground": "#c864647e",
     // tabs
     "tab.activeBorderTop": "#007ACC",
     "tab.inactiveBackground": "#252526",
@@ -280,6 +281,18 @@
       },
       "scope": [
         "source.shell"
+      ]
+    },
+    //
+    // DOCKER
+    //
+    {
+      "name": "docker",
+      "settings": {
+        "foreground": "#9CDCFE",
+      },
+      "scope": [
+        "source.dockerfile"
       ]
     },
     //
