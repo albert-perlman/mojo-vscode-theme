@@ -173,7 +173,8 @@
         "string.quoted.single",
         "string.other.math.shell",
         "string.interpolated.dollar.shell",
-        "string.interpolated.backtick.shell"
+        "string.interpolated.backtick.shell",
+        "string.interpolated.makefile"
       ]
     },
     {
@@ -272,7 +273,7 @@
       ]
     },
     //
-    // BASH
+    // BASH & MAKEFILE
     //
     {
       "name": "bash",
@@ -280,7 +281,8 @@
         "foreground": "#00a8c9",
       },
       "scope": [
-        "source.shell"
+        "source.shell",
+        "source.makefile"
       ]
     },
     //
